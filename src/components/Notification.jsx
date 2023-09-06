@@ -1,3 +1,5 @@
 export const Notification = ({ message }) => {
-    <p>{ message }</p>
+    return (
+        <p>{message}</p>
+    )
 }
